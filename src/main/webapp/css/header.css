@@ -1,0 +1,49 @@
+.dashboard {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #05a9e4;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+li a:hover {
+  background-color: white;
+  color: #05a9e4;
+}
+
+li a:active {
+	opacity: 0.7;
+}
+
+.websitename {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+.logo {
+	float: left;
+	padding: 14px 16px;
+}
+
+.logo img {
+	height: 20px;
+	vertical-align: middle;
+}
